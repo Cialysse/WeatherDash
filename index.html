@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+
+    <title>Wheather Dash</title>
+</head>
+<body onload="DefaultScreen()">
+   <h1 class='Forecast'>Weekly Wheather Forecast</h1>
+   <p class="container">City: <input type="text class="cityInput"></p>
+   <button onClick="GetInfo()">Search</button>
+   <h2 class="cityName">--Berlin--</h2>
+   <div class="weather-box">
+       <div class="icon-container">
+            <div class="icons">
+                <p class="weather" id='day-1'></p>
+                <div class="img"><img src="images/storm.png" class='forecast1' id="storm-img"</div>
+                <p class="minValues" id="day1Min">Loading...</p>
+                <p class="maxValues" id="day1Max">Loading...</p>
+                <div class="icons">
+                    <p class="weather" id='day-2'></p>
+                    <div class="img"><img src="images/storm.png" class='forecast2' id="storm-img"</div>
+                    <p class="minValues" id="day2Min">Loading...</p>
+                    <p class="maxValues" id="day2Max">Loading...</p>
+                    
+            </div>
+            <div class="icons">
+                <p class="weather" id='day-3'></p>
+                <div class="img"><img src="images/storm.png" class='forecast3' id="storm-img"</div>
+                <p class="minValues" id="day3Min">Loading...</p>
+                <p class="maxValues" id="day3Max">Loading...</p>
+                
+        </div>
+        <div class="icons">
+            <p class="weather" id='day-4'></p>
+            <div class="img"><img src="images/storm.png" class='forecast4' id="storm-img"</div>
+            <p class="minValues" id="day4Min">Loading...</p>
+            <p class="maxValues" id="day4Max">Loading...</p>
+            
+        </div>
+            </div>
+       </div>
+   </div>
+</body>
+</html>
